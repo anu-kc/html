@@ -1,0 +1,41 @@
+for rating, should I use jquery plugin?
+[5/4/2012 8:39:55 PM] Anu K. C.: or you will do that?
+[5/4/2012 8:40:30 PM] Eric Cantor: you mean use jquery to go to the database and look for how many stars and what comment to put on each rating?
+[5/4/2012 8:41:05 PM] Anu K. C.: no, I'll put jquery plugin (some plugin) and you can set from your code
+[5/4/2012 8:41:23 PM] Anu K. C.: or you want me to request on server to get data for that
+[5/4/2012 8:41:38 PM] Eric Cantor: I like the idea of requesting from server
+[5/4/2012 8:41:57 PM] Eric Cantor: but then you have to do a javascript call to a specific controller and ask for a JSON response, right?
+[5/4/2012 8:42:52 PM] Eric Cantor: I think if you do a GET on /social/:id.json it will give what you need
+[5/4/2012 8:43:04 PM] Eric Cantor: but I think we'll have to test and get that right once I have the back-end working
+[5/4/2012 8:44:56 PM] Anu K. C.: yes, please let me have url for that
+[5/4/2012 8:45:09 PM] Anu K. C.: JSON response is best to work with javascript
+[5/4/2012 8:46:13 PM] Anu K. C.: this is ok right?
+[5/4/2012 8:47:36 PM] Eric Cantor: okay, I haven't developed it all yet, but as indicated on top of the page, you should be able to GET "/social/:id" and expect a json response with all the fields for that specific card's social ratings and comments
+[5/4/2012 8:47:53 PM] Anu K. C.: but for json request, page should be hosted on same server, or I need to install server on my computer,
+[5/4/2012 8:48:01 PM] Eric Cantor: :id is the id of the card you are looking at (i.e. /social/78 will retreive card 79)
+[5/4/2012 8:48:09 PM] Anu K. C.: I guess, i should work with dummy json
+[5/4/2012 8:48:20 PM] Eric Cantor: correct, page will be hosted on my server where the web server is
+[5/4/2012 8:48:38 PM] Eric Cantor: you aren't going to be able to make it functional until I put it in here
+[5/4/2012 8:48:47 PM] Eric Cantor: so for now just point to some sample json or fake it
+[5/4/2012 8:49:06 PM] Anu K. C.: ok
+[5/4/2012 8:49:08 PM] Eric Cantor: i..e just pull something in from any other site and we'll know the data is just for demonstration purposes
+[5/4/2012 8:49:20 PM] Eric Cantor: or just do a get from a local file with sample content
+[5/4/2012 8:49:31 PM] Anu K. C.: ok, I will make dummy data
+[5/4/2012 8:49:48 PM] Eric Cantor: by the way, all the fields for ratings on pages E, F and G are written more clearly in the spreadsheet I posted to the dropbox yesterday
+[5/4/2012 8:51:51 PM] Anu K. C.: only this file is there
+[5/4/2012 8:51:52 PM] Anu K. C.: H+I - LS Data Entry Fields
+[5/4/2012 8:56:51 PM] Anu K. C.: Do we have design for Edit Ratings and Edit Comments?
+[5/4/2012 8:57:30 PM] Eric Cantor: working on it
+[5/4/2012 8:57:56 PM] Eric Cantor: right now it's just the wireframes, perhaps you stay away from that section until we get some more detail next week
+[5/4/2012 8:58:09 PM] Anu K. C.: ok
+[5/4/2012 8:58:49 PM] Anu K. C.: and what you have plan to do with Guage control in B.Overall page
+[5/4/2012 9:02:27 PM] Eric Cantor: I have someone working on a javascript solution
+[5/4/2012 9:02:32 PM] Eric Cantor: don't wory about that part either
+[5/4/2012 9:02:48 PM] Eric Cantor: unless you figured out a way to do it nicely?
+[5/4/2012 9:03:18 PM] Anu K. C.: ah, ok, otherwise I have my friend who can make jquery plugin for that, with canvas programming
+[5/4/2012 9:03:27 PM] Anu K. C.: he was saying like that,
+[5/4/2012 9:05:21 PM] Eric Cantor: okay, does he have an idea of how long that might take?
+[5/4/2012 9:06:08 PM] Anu K. C.: no idea, I need to ask to him, but plugin development may take more time right?
+[5/4/2012 9:06:40 PM] Anu K. C.: if someone is doing that, let me know when it finish
+[5/4/2012 9:08:58 PM] Eric Cantor: ok, let's not worry about that for now, just get the CSS on the pgaes and see where we stand with the speedometer
+[5/4/2012 9:09:07 PM] Eric Cantor: for now you can just leave a big box where that will go
