@@ -7,10 +7,29 @@
   <meta charset="utf-8">
 
   <title>LIFESIMP.LY - your life metrics in a box!</title>
+    <!-- CSS file --> 
+     
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/jRating.jquery.css" media="screen" />
+    <!-- jQuery files --> 
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    <script type="text/javascript" src="js/jRating.jquery.js"></script>
+  
 
-  <link rel="stylesheet" href="css/style.css">
-
-  <script src="js/modernizr-2.0.6.min.js"></script>
+    <script src="js/modernizr-2.0.6.min.js"></script>
+    <script type="text/javascript"> 
+    $(document).ready(function(){ 
+        // simple jRating call $(".basic").jRating(); 
+        // more complex jRating call 
+        $("#ratings_stars").jRating({
+            step:true,
+            length : 5, // nb of stars
+            decimalLength:0, // number of decimal in the rate
+            type : 'small'
+        });
+        
+    }); 
+    </script> 
 </head>
 
 <body>
@@ -67,7 +86,7 @@
                 <ul>
                     <li>
                         <div class="ratings-name">Friends</div>
-                        <div class="ratings-stars"><img src="img/stars.jpg" alt="ratings"></div>
+                        <div class="ratings-stars" id="ratings_stars"></div>
                         <div class="comments"><p>Some good new friends and energy, more on the way</p></div>
                     </li>
                     <li>
