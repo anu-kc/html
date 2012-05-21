@@ -70,7 +70,7 @@
 				'class' : 'jRatingAverage',
 				css:{
 					width:0,
-					top:- starHeight
+					//top:- starHeight
 				}
 			}).appendTo($(this)),
 
@@ -81,7 +81,7 @@
 				css:{
 					width:widthRatingContainer,
 					height:starHeight,
-					top:- (starHeight*2),
+					//top:- (starHeight*2),
 					background: 'url('+bgPath+') repeat-x'
 				}
 			}).appendTo($(this));
