@@ -4,7 +4,8 @@
 
 /**Div containing the color of the stars */
 .jRatingAverage {
-	background-color:#f62929;
+	background-color:#f3650f;
+	/*background: url('../img/icons/star2.png') no-repeat;*/
 	position:relative;
 	top:0;
 	left:0;
@@ -12,7 +13,8 @@
 	height:100%;
 }
 .jRatingColor {
-	background-color:#f4c239; /* bgcolor of the stars*/
+	background-color:#666;  
+	/*background: url('../img/icons/star1.png') no-repeat;*/
 	position:relative;
 	top:0;
 	left:0;
