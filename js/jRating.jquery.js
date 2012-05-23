@@ -13,6 +13,7 @@
 		var defaults = {
 			/** String vars **/
 			bigStarsPath : 'img/icons/stars.png', // path of the icon stars.png
+			middleStarsPath : 'img/icons/middle.png',
 			smallStarsPath : 'img/icons/small.png', // path of the icon small.png
 			phpPath : 'php/jRating.php', // path of the php file jRating.php
 			type : 'big', // can be set to 'small' or 'big'
@@ -199,6 +200,12 @@
 						starWidth = 12; // width of the picture small.png
 						starHeight = 10; // height of the picture small.png
 						bgPath = opts.smallStarsPath;
+						break;
+					case 'middle' :
+						starWidth = 21;
+						starHeight = 15;
+						bgPath = opts.middleStarsPath;
+						
 					break;
 					default :
 						starWidth = 23; // width of the picture stars.png
