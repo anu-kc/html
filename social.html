@@ -21,7 +21,7 @@
     $(document).ready(function(){ 
         // simple jRating call $(".basic").jRating(); 
         // more complex jRating call 
-        $("#ratings_stars").jRating({
+        $("#ratings_friends, #ratings_social, #ratings_romance").jRating({
             step:true,
             length : 5, // nb of stars
             decimalLength:0, // number of decimal in the rate
@@ -87,17 +87,17 @@
                 <ul>
                     <li>
                         <div class="ratings-name">Friends</div>
-                        <div class="ratings-stars" id="ratings_stars"></div>
+                        <div class="ratings-stars" id="ratings_friends"></div>
                         <div class="comments"><p>Some good new friends and energy, more on the way</p></div>
                     </li>
                     <li>
                         <div class="ratings-name">Social</div>
-                        <div class="ratings-stars"><img src="img/stars.jpg" alt="ratings"></div>
+                        <div class="ratings-stars" id="ratings_social"></div>
                         <div class="comments"><p>Tough with Dad, better with the kids</p></div>
                     </li>
                     <li>
                         <div class="ratings-name">Romance</div>
-                        <div class="ratings-stars"><img src="img/stars.jpg" alt="ratings"></div>
+                        <div class="ratings-stars" id="ratings_romance"></div>
                         <div class="comments"><p>Finally dating someone I'm excited about</p></div>
                     </li>
                 </ul>

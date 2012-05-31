@@ -133,7 +133,7 @@ nav a.professional.selected{background-position: 0 -182px;}
 .social-scorecard .simple-list li{margin-bottom: 3px; overflow: hidden;}
 .social-scorecard .simple-list .ratings-name{font-family: PT Sans Narrow; line-height: 39px;}
 .social-scorecard .ratings-name{font-size: 20px; width: 75px;}
-.social-scorecard .ratings-stars{margin:10px 30px 0 0; width: 145px;}
+.social-scorecard .ratings-stars{margin:12px 30px 0 0; width: 145px;}
 .social-scorecard .comments{width: 390px;}
 .social-scorecard .comments p{-moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; background:#4cc7cc; display:block; font-size: 14px; height: 39px; line-height: 39px; margin: 0; position:relative; padding-left: 16px; width: 374px;}
 .social-scorecard .comments p:before{border-color: transparent #4cc7cc transparent transparent; border-style: solid; border-width: 6px 18px 6px 6px; content: " "; display: block; height: 0; left: -23px; position: absolute; top: 13px; width: 0; z-index: 1;}
